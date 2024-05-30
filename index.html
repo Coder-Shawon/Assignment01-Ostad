@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="left-bar">
+            <h1>The <br>Company</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#showcase">Showcase</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#designers">Designers</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <section id="home">
+            <h2>Interior Design</h2>
+            <h3>Showcase.</h3>
+            <div class="showcase-images">
+                <img src="images/showcase-01.jpg" alt="Showcase 1">
+                <img src="images/showcase-02.jpg" alt="Showcase 2">
+                <img src="images/showcase-03.jpg" alt="Showcase 3">
+                <img src="images/showcase-04.jpg" alt="Showcase 4">
+                <img src="images/showcase-05.jpg" alt="Showcase 5">
+                <img src="images/showcase-06.jpg" alt="Showcase 6">
+            </div>
+        </section>
+        <section id="services">
+            <h3>Services.</h3>
+            <p>We are a interior design service that focus on what’s best for your home and what’s best for you! <br><br>
+                Some text about our services - what we do and what we offer Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consectetur doloribus corporis sint illum magnam accusamus assumenda provident expedita, obcaecati explicabo qui autem modi sequi iste atque hic earum numquam tenetur unde repudiandae optio perspiciatis voluptatibus eveniet? Neque eveniet nostrum minus eaque dolores? Assumenda voluptatem illo accusantium quaerat modi laborum? </p>
+        </section>
+        <section id="designers">
+            <h3>Designers.</h3>
+            <p>The best team in the world. <br><br>
+                
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, rem, explicabo optio beatae eius eveniet commodi at deleniti temporibus laborum cum odio? Et nobis aperiam laboriosam odit, eum facere ab, illo cupiditate obcaecati quasi nulla. Nam ut debitis aliquam quisquam, iure minima inventore, a quos asperiores accusamus expedita est voluptatem.</p>
+            <div class="designers-profiles">
+                <div class="designer">
+                    <img src="images/person-01.jpg" alt="John Doe">
+                    <h4>John Doe</h4>
+                    <p>CEO & Founder</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                </div>
+                <div class="designer">
+                    <img src="images/person-02.jpg" alt="Jane Doe">
+                    <h4>Jane Doe</h4>
+                    <p>Designer</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                </div>
+                <div class="designer">
+                    <img src="images/person-03.jpg" alt="Mike Ross">
+                    <h4>Mike Ross</h4>
+                        <p>Architect</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="packages">
+            <h3>Packages.</h3>
+            <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+            <div class="package-container">
+                <div class="package basic">
+                    <h3>Basic</h3>
+                    <ul>
+                        <li>Floorplanning</li>
+                        <li>10 hours support</li>
+                        <li>Photography</li>
+                        <li>20% furniture discount</li>
+                        <li>Good deals</li>
+                    </ul>
+                    <div class="price-adjust">
+                        <button id="minus-btn-basic">-</button>
+                        <span id="room-price-basic">$199</span>
+                        <button id="plus-btn-basic">+</button>
+                    </div>
+                    <span id="room-count-basic">1 room</span>
+                    <button id="sign-up-btn-basic">Sign Up</button>
+                </div>
+                <div class="package pro">
+                    <h3>Pro</h3>
+                    <ul>
+                        <li>Floorplanning</li>
+                        <li>50 hours support</li>
+                        <li>Photography</li>
+                        <li>50% furniture discount</li>
+                        <li>GREAT deals</li>
+                    </ul>
+                    <div class="price-adjust">
+                        <button id="minus-btn-pro">-</button>
+                        <span id="room-price-pro">$249</span>
+                        <button id="plus-btn-pro">+</button>
+                    </div>
+                    <span id="room-count-pro">1 room</span>
+                    <button id="sign-up-btn-pro">Sign Up</button>
+                </div>
+            </div>
+            <p id="thank-you-text" style="display:none;">Thank you for choosing <span id="final-room-count">1 room</span></p>
+        </section>
+
+        <section id="contact">
+            <h3>Contact Us.</h3>
+            <p>Do you want to style your home? Fill out the form and fill me in with the details :) We love meeting new people.</p><br>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.left-bar {
+    width: 200px;
+    background-color: #FF6347;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.left-bar h1 {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.left-bar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-bar nav ul li {
+    margin-bottom: 10px;
+}
+
+.left-bar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+    
+    
+    
+    
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    font-size: 20px;
+    color: #FF6347;
+}
+
+.showcase-images, .designers-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.showcase-images img, .designers-profiles img {
+    width:  calc(33% - 10px);
+    height: auto;
+}
+
+.designers-profiles {
+    justify-content: space-between;
+    
+}
+
+.designer {
+    width: calc(33% - 10px);
+    background-color: #f4f4f4;
+    text-align:;
+}
+
+.designer img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.designer h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.designer p {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #777;
+}
+
+
+.package-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.package.basic {
+    background-color: #f2f2f2;
+}
+.package.pro li {
+    border-color: #f75c35;
+}
+.package.pro h3 {
+    background-color: #f75c35;
+    color: white;
+}
+
+
+
+.package h3 {
+    margin-top: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.package li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.price-adjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.price-adjust button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#thank-you-text {
+    margin-top: 20px;
+    color: green;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea {
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #FF6347;
+    color: antiquewhite;
+}
